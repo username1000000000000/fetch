@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fetch/static/css/main.3812046c.css",
+    "main.js": "/fetch/static/js/main.109e3215.js",
+    "static/js/787.058a272f.chunk.js": "/fetch/static/js/787.058a272f.chunk.js",
+    "static/media/pawprint.png": "/fetch/static/media/pawprint.0e81904f12aa48cede30.png",
+    "index.html": "/fetch/index.html",
+    "main.3812046c.css.map": "/fetch/static/css/main.3812046c.css.map",
+    "main.109e3215.js.map": "/fetch/static/js/main.109e3215.js.map",
+    "787.058a272f.chunk.js.map": "/fetch/static/js/787.058a272f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3812046c.css",
+    "static/js/main.109e3215.js"
+  ]
+}
