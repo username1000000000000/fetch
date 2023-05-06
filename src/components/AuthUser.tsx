@@ -55,10 +55,14 @@ const AuthUser = () => {
         setNumber(e.target.value);
       }
     const handleSubmit = () => {
-        const parsedNumber = parseInt(number, 10);
+        const pagesNum = Math.ceil(dogArr.length / limit)
+        if (parseInt(number) <= pagesNum) {
+            const parsedNumber = parseInt(number, 10);
         if (!isNaN(parsedNumber)) {
             setActivePage(parsedNumber);
         }
+        }
+        
       }
     const handleSortToggle = () => {
         setToggleChecked(!toggleChecked);
