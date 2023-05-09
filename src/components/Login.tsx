@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Button, Input, Message, useToaster } from 'rsuite';
 import 'rsuite/dist/rsuite-no-reset.min.css';
 import '../App.css';
-import PawPrint from './resources/pawprint.png';
+import PawPrint from '../pawprint.png';
 
 const myFormData = {
     email: '',
