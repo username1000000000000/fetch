@@ -11,7 +11,7 @@ const myFormData = {
     name: ''
 }
 
-const Login: React.FC = () => {
+const Login = () => {
     const [formData, setFormData] = useState(myFormData);
     const {email, name} = formData;
     const [loading, setLoading] = useState(false);

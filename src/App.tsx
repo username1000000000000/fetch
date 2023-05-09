@@ -7,6 +7,9 @@ import AuthUser from './components/AuthUser';
 
 
 function App() {
+  useEffect(() => {
+    console.log('app.js')
+  })
   return (
       <Routes>
       <Route path="/" element={<Navigate to="/login" />} />
